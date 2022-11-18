@@ -36,7 +36,7 @@ export default function Home() {
       {/* When the user hovers over the image we apply the wiggle style to it */}
       <animated.div onMouseEnter={trigger} style={style}>
         <img
-          src={"../assets/logo.png"}
+          src={require("../assets/logo.png")}
           className="homeimage"
           onClick={handleChangeName}
           alt="Illustration click to change title"
